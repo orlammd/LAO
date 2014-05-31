@@ -719,19 +719,7 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
-   <Frame ID="195" Caption="Blinder Cour Faders">
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <WindowState Width="555" X="5" Y="5" Height="240" Visible="True"/>
-    <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
-    <ShowHeader>True</ShowHeader>
-    <Collapsed>False</Collapsed>
+
     
 <Slider WidgetStyle="Knob" Caption="CJ Red Segment 1" InvertedAppearance="false">
 <WindowState Width="60" X="5" Y="40" Height="90" Visible="True"/>
@@ -1887,7 +1875,7 @@
 </Slider>
 
 
-   </Frame>
+
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
