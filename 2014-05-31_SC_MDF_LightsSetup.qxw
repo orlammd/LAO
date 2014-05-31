@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="FixtureManager">
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="FunctionManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.7.0</Version>
@@ -112,6 +112,38 @@
    <Address>103</Address>
    <Channels>1</Channels>
   </Fixture>
+  <Function Type="Scene" Name="CJ Red Segment 1" ID="0">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ Red Segment 1 (copie)" ID="1">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ Red Segment 1 (copie)" ID="2">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ Red Segment 1 (copie) (copie)" ID="3">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ Red Segment 1 (copie)" ID="4">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ Red Segment 2" ID="5">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ Red Segment 1 (copie) (copie)" ID="6">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ Red Segment 1 (copie) (copie) (copie)" ID="7">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
  </Engine>
  <VirtualConsole>
   <Frame Caption="">
