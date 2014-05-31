@@ -1,20 +1,22 @@
 #!/bin/bash
 #sed -e 's/<Function .* Name\="\(.*\)" ID\="\(.*\)">//g'
 
+rm dummy.sliders
 touch dummy.sliders
 i=0
 j=0
 
 cat 2014-05-31_SC_MDF_LightsSetup.qxw |grep "<Function" | while read line
 do
+echo $i"/"$j
 name=`echo $line|sed -e 's/<Function .* Name\="\(.*\)" .*>/\1/g'`
 functionid=`echo $line |sed -e 's/<Function .* ID\="\(.*\)">/\1/g'` #sed -e 's/<Function .* ID\="\(.*\)">/\1/g'`
 pathname=`echo $name|cut -d " " -f1`
 pathcolor=`echo $name|cut -d " " -f2`
 pathsegment=`echo $name|cut -d " " -f4`
 
-path="/"$pathname"/"$pathcolor"/Segment"$pathsegment
-echo $path
+path="/"$pathname"/"$pathcolor"/Segment/"$pathsegment
+echo $path >> oscpath.list
 
 pathchecksum=`./LAO $path`
 
@@ -34,10 +36,11 @@ echo '<Playback>' >> dummy.sliders
 echo '<Function>'$functionid'</Function>' >> dummy.sliders
 echo '</Playback>' >> dummy.sliders
 echo '</Slider>' >> dummy.sliders
+echo '' >> dummy.sliders
 
 i=$(echo "$i+1"|bc)
 
-if [ $i==9 ]
+if [ $i -eq 9 ]
 then
 j=$(echo "$j+1"|bc)
 i=0
