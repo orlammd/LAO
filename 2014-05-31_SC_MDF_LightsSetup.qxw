@@ -252,8 +252,6 @@
   </Function>
   
   
-  
-  
   <Function Type="Scene" Name="CC Red Segment 1" ID="24">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="4">0,255</FixtureVal>
@@ -285,6 +283,10 @@
   <Function Type="Scene" Name="CC Red Segment 8" ID="31">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="4">21,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CC Red All Segments" ID="102">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="4">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="CC Green Segment 1" ID="32">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -318,6 +320,10 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="4">22,255</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="CC Green All Segments" ID="103">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="4">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
+  </Function>
   <Function Type="Scene" Name="CC Blue Segment 1" ID="40">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="4">2,255</FixtureVal>
@@ -350,18 +356,55 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="4">23,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="CC Red All Segments" ID="102">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="4">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="CC Green All Segments" ID="103">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="4">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
-  </Function>
   <Function Type="Scene" Name="CC Blue All Segments" ID="104">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="4">2,255,5,255,8,255,11,255,14,255,17,255,20,255,23,255</FixtureVal>
   </Function>
+  
+  <Function Type="Scene" Name="CC White Segment 1" ID="118">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CC White Segment 2" ID="119">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,255,4,255,5,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CC White Segment 3" ID="120">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">6,255,7,255,8,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CC White Segment 4" ID="121">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">9,255,10,255,11,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CC White Segment 5" ID="122">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">12,255,13,255,14</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CC White Segment 6" ID="123">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">15,255,16,255,17</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CC White Segment 7" ID="124">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">18,255,19,255,20</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CC White Segment 8" ID="125">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">21,255,22,255,23</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CC White All Segments" ID="126">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
+  </Function>
+  
+
+
+
+
+
+
+
   
   <Function Type="Scene" Name="BJ Red Segment 1" ID="48">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -395,6 +438,10 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">21,255</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="BJ Red All Segments" ID="99">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
+  </Function>
   <Function Type="Scene" Name="BJ Green Segment 1" ID="56">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">1,255</FixtureVal>
@@ -426,6 +473,10 @@
   <Function Type="Scene" Name="BJ Green Segment 8" ID="63">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">22,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BJ Green All Segments" ID="100">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="BJ Blue Segment 1" ID="64">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -459,18 +510,55 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">23,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="BJ Red All Segments" ID="99">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="1">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="BJ Green All Segments" ID="100">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="1">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
-  </Function>
   <Function Type="Scene" Name="BJ Blue All Segments" ID="101">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">2,255,5,255,8,255,11,255,14,255,17,255,20,255,23,255</FixtureVal>
   </Function>
+  
+  <Function Type="Scene" Name="BJ White Segment 1" ID="127">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BJ White Segment 2" ID="128">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,255,4,255,5,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BJ White Segment 3" ID="129">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">6,255,7,255,8,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BJ White Segment 4" ID="130">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">9,255,10,255,11,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BJ White Segment 5" ID="131">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">12,255,13,255,14</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BJ White Segment 6" ID="132">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">15,255,16,255,17</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BJ White Segment 7" ID="133">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">18,255,19,255,20</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BJ White Segment 8" ID="134">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">21,255,22,255,23</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BJ White All Segments" ID="135">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
+  </Function>
+  
+  
+  
+  
+  
+  
+  
+  
   
   <Function Type="Scene" Name="BC Red Segment 1" ID="72">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -504,6 +592,10 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">21,255</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="BC Red All Segments" ID="96">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="3">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
+  </Function>
   <Function Type="Scene" Name="BC Green Segment 1" ID="80">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">1,255</FixtureVal>
@@ -535,6 +627,10 @@
   <Function Type="Scene" Name="BC Green Segment 8" ID="87">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">22,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BC Green All Segments" ID="97">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="3">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="BC Blue Segment 1" ID="88">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -568,26 +664,50 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">23,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="BC Red All Segments" ID="96">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="3">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="BC Green All Segments" ID="97">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="3">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
-  </Function>
   <Function Type="Scene" Name="BC Blue All Segments" ID="98">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">2,255,5,255,8,255,11,255,14,255,17,255,20,255,23,255</FixtureVal>
   </Function>
   
-
-
+ <Function Type="Scene" Name="BC White Segment 1" ID="136">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BC White Segment 2" ID="137">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,255,4,255,5,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BC White Segment 3" ID="138">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">6,255,7,255,8,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BC White Segment 4" ID="139">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">9,255,10,255,11,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BC White Segment 5" ID="140">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">12,255,13,255,14</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BC White Segment 6" ID="141">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">15,255,16,255,17</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BC White Segment 7" ID="142">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">18,255,19,255,20</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BC White Segment 8" ID="143">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">21,255,22,255,23</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BC White All Segments" ID="144">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
+  </Function>
   
 
-  
-  
-  
+
   
  </Engine>
  <VirtualConsole>
