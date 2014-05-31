@@ -6,14 +6,14 @@ bbj_name="BJ"
 bbc_name="BC"
 
 bcj_basechannel=0
-bcc_basechannel=24
-bbj_basechannel=52
-bbc_basechannel=76
+bcc_basechannel=0
+bbj_basechannel=0
+bbc_basechannel=0
 
 bcj_fixtureID=0
-bcc_fixtureID=0
-bbj_fixtureID=0
-bbc_fixtureID=0
+bcc_fixtureID=4
+bbj_fixtureID=1
+bbc_fixtureID=3
 
 
 rouge="Red"
