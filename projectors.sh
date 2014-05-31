@@ -26,9 +26,9 @@ baseId=0
 ./projector.sh "$bcj_name $vert" $(echo "$baseId+8"|bc) $bcj_basechannel $bcj_fixtureID 255
 ./projector.sh "$bcj_name $bleu" $(echo "$baseId+16"|bc) $bcj_basechannel $bcj_fixtureID 255
 
-./projector.sh "$bcc_name $rouge" $(echo "$baseId+24"|bc) $bcc_basechannel $bbc_fixtureID 255
-./projector.sh "$bcc_name $vert" $(echo "$baseId+32"|bc) $bcc_basechannel $bbc_fixtureID 255
-./projector.sh "$bcc_name $bleu" $(echo "$baseId+40"|bc) $bcc_basechannel $bbc_fixtureID 255
+./projector.sh "$bcc_name $rouge" $(echo "$baseId+24"|bc) $bcc_basechannel $bcc_fixtureID 255
+./projector.sh "$bcc_name $vert" $(echo "$baseId+32"|bc) $bcc_basechannel $bcc_fixtureID 255
+./projector.sh "$bcc_name $bleu" $(echo "$baseId+40"|bc) $bcc_basechannel $bcc_fixtureID 255
 
 ./projector.sh "$bbj_name $rouge" $(echo "$baseId+48"|bc) $bbj_basechannel $bbj_fixtureID 255
 ./projector.sh "$bbj_name $vert" $(echo "$baseId+56"|bc) $bbj_basechannel $bbj_fixtureID 255
