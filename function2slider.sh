@@ -5,7 +5,7 @@ touch dummy.sliders
 i=0
 j=0
 
-cat test.qxw |grep "<Function" | while read line
+cat 2014-05-31_SC_MDF_LightsSetup.qxw |grep "<Function" | while read line
 do
 name=`echo $line|sed -e 's/<Function .* Name\="\(.*\)" .*>/\1/g'`
 functionid=`echo $line |sed -e 's/<Function .* ID\="\(.*\)">/\1/g'` #sed -e 's/<Function .* ID\="\(.*\)">/\1/g'`
