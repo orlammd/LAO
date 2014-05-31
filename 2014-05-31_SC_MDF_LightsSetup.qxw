@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.0</Version>
+  <Author>,,,</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="0">
+    <Input Plugin="OSC" Line="0" Profile="None"/>
+    <Output Plugin="DMX USB" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1" Passthrough="0">
+    <Output Plugin="None" Line="4294967295"/>
+   </Universe>
+   <Universe Name="Universe 3" ID="2" Passthrough="0">
+    <Output Plugin="None" Line="4294967295"/>
+   </Universe>
+   <Universe Name="Universe 4" ID="3" Passthrough="0">
+    <Output Plugin="None" Line="4294967295"/>
+   </Universe>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>LED Bar 240/8 RGB</Model>
+   <Mode>24-channel</Mode>
+   <ID>0</ID>
+   <Name>STLedBar Contre Jardin</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>24</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>LED Bar 240/8 RGB</Model>
+   <Mode>24-channel</Mode>
+   <ID>1</ID>
+   <Name>STLedBar Blind Jardin</Name>
+   <Universe>0</Universe>
+   <Address>24</Address>
+   <Channels>24</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>2</ID>
+   <Name>GhLedBar Centre</Name>
+   <Universe>0</Universe>
+   <Address>48</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>LED Bar 240/8 RGB</Model>
+   <Mode>24-channel</Mode>
+   <ID>3</ID>
+   <Name>STLedBar Blind Cour</Name>
+   <Universe>0</Universe>
+   <Address>52</Address>
+   <Channels>24</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>LED Bar 240/8 RGB</Model>
+   <Mode>24-channel</Mode>
+   <ID>4</ID>
+   <Name>STLedBar Contre Cour</Name>
+   <Universe>0</Universe>
+   <Address>76</Address>
+   <Channels>24</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>5</ID>
+   <Name>Decoupe Jardin [ORL]</Name>
+   <Universe>0</Universe>
+   <Address>100</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>6</ID>
+   <Name>Decoupe Cour [Dag]</Name>
+   <Universe>0</Universe>
+   <Address>101</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>7</ID>
+   <Name>Decoupe Lointain [Jeannot]</Name>
+   <Universe>0</Universe>
+   <Address>102</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>8</ID>
+   <Name>Decoupe Plot [Tyran]</Name>
+   <Universe>0</Universe>
+   <Address>103</Address>
+   <Channels>1</Channels>
+  </Fixture>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+
