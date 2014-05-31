@@ -11,9 +11,9 @@ bbj_basechannel=52
 bbc_basechannel=76
 
 bcj_fixtureID=0
-bcc_fixtureID=1
-bbj_fixtureID=3
-bbc_fixtureID=4
+bcc_fixtureID=0
+bbj_fixtureID=0
+bbc_fixtureID=0
 
 
 rouge="Red"
