@@ -5,15 +5,17 @@
 
 using namespace std;
 
-int main(){
+int main(int argc, char *params[]){
 
 QTextStream qtin(stdin); 
 quint16 hash;
 
-QString path;
+QString path; 
 
-std::cout << "Vas-y pour voir" << std::endl;
-qtin >> path;
+path = params[1];
+
+//std::cout << "Vas-y pour voir" << std::endl;
+//qtin >> path;
 
 hash = qChecksum(path.toUtf8().data(), path.length());
 
