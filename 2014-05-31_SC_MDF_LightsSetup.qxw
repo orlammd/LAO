@@ -202,6 +202,19 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">23,255</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="CJ Red All Segments" ID="105">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ Green All Segments" ID="106">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ Blue All Segments" ID="107">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">2,255,5,255,8,255,11,255,14,255,17,255,20,255,23,255</FixtureVal>
+  </Function>
+  
   <Function Type="Scene" Name="CC Red Segment 1" ID="24">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="4">0,255</FixtureVal>
@@ -298,6 +311,19 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="4">23,255</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="CC Red All Segments" ID="102">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="4">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CC Green All Segments" ID="103">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="4">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CC Blue All Segments" ID="104">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="4">2,255,5,255,8,255,11,255,14,255,17,255,20,255,23,255</FixtureVal>
+  </Function>
+  
   <Function Type="Scene" Name="BJ Red Segment 1" ID="48">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">0,255</FixtureVal>
@@ -394,6 +420,19 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">23,255</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="BJ Red All Segments" ID="99">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BJ Green All Segments" ID="100">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BJ Blue All Segments" ID="101">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">2,255,5,255,8,255,11,255,14,255,17,255,20,255,23,255</FixtureVal>
+  </Function>
+  
   <Function Type="Scene" Name="BC Red Segment 1" ID="72">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">0,255</FixtureVal>
@@ -490,10 +529,27 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">23,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="BC Blue All Segments" ID="96">
+  <Function Type="Scene" Name="BC Red All Segments" ID="96">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="3">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BC Green All Segments" ID="97">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="3">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="BC Blue All Segments" ID="98">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">2,255,5,255,8,255,11,255,14,255,17,255,20,255,23,255</FixtureVal>
   </Function>
+  
+
+
+  
+
+  
+  
+  
+  
  </Engine>
  <VirtualConsole>
   <Frame Caption="">
@@ -517,6 +573,9 @@
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <Collapsed>False</Collapsed>
+    
+    
+    
     <Slider WidgetStyle="Knob" ID="196" Caption="Bouton rotatif 196" InvertedAppearance="false">
      <WindowState Width="60" X="5" Y="40" Height="90" Visible="True"/>
      <Appearance>
@@ -533,6 +592,30 @@
       <Function>88</Function>
      </Playback>
     </Slider>
+    
+    
+    <Slider WidgetStyle="Knob" ID="196" Caption="Bouton rotatif 196" InvertedAppearance="false">
+     <WindowState Width="60" X="5" Y="40" Height="90" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="342"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>88</Function>
+     </Playback>
+    </Slider>
+    
+    
+    
+    
+    
+    
     <Slider WidgetStyle="Knob" Caption="Bouton rotatif 196" InvertedAppearance="false">
      <WindowState Width="60" X="65" Y="40" Height="90" Visible="True"/>
      <Appearance>
