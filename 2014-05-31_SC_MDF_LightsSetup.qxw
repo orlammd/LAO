@@ -138,6 +138,10 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">21,255</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="CJ Red All Segments" ID="105">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
+  </Function>
   <Function Type="Scene" Name="CJ Green Segment 1" ID="8">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">1,255</FixtureVal>
@@ -169,6 +173,10 @@
   <Function Type="Scene" Name="CJ Green Segment 8" ID="15">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">22,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ Green All Segments" ID="106">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="CJ Blue Segment 1" ID="16">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -202,18 +210,49 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">23,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="CJ Red All Segments" ID="105">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="0">0,255,3,255,6,255,9,255,12,255,15,255,18,255,21,255</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="CJ Green All Segments" ID="106">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="0">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255</FixtureVal>
-  </Function>
   <Function Type="Scene" Name="CJ Blue All Segments" ID="107">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">2,255,5,255,8,255,11,255,14,255,17,255,20,255,23,255</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="CJ White Segment 1" ID="108">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ White Segment 2" ID="109">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,255,4,255,5,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ White Segment 3" ID="110">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">6,255,7,255,8,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ White Segment 4" ID="111">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">9,255,10,255,11,255<</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ White Segment 5" ID="112">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">12,255,13,255,14</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ White Segment 6" ID="114">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">15,255,16,255,17</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ White Segment 7" ID="115">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">18,255,19,255,20</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ White Segment 8" ID="116">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">21,255,22,255,23</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CJ White All Segments" ID="117">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
+  </Function>
+  
+  
+  
   
   <Function Type="Scene" Name="CC Red Segment 1" ID="24">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
