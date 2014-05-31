@@ -1,11 +1,12 @@
 #!/bin/bash
 Name=$1
-FixtureID=$2
-Channel=$3
-Dimmer=$4
-File=$5
+FunctionID=$2
+FixtureID=$3
+Channel=$4
+Dimmer=$5
+File=$6
 
-echo '<Function Type="Scene" Name="'$Name'" ID="'$FunctionID'">'
-echo '<Speed Duration="0" FadeOut="0" FadeIn="0"/>'
-echo '<FixtureVal ID="'$FixtureID'">'$Channel','$Dimmer'</FixtureVal>'
-echo '</Function>'
+echo '<Function Type="Scene" Name="'$Name'" ID="'$FunctionID'">' >> $File
+echo '<Speed Duration="0" FadeOut="0" FadeIn="0"/>' >> $File
+echo '<FixtureVal ID="'$FixtureID'">'$Channel','$Dimmer'</FixtureVal>' >> $File
+echo '</Function>' >> $File
