@@ -3,8 +3,8 @@
 <Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.7.0</Version>
-  <Author>,,,</Author>
+  <Version>4.7.3</Version>
+  <Author>orl,,,</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
@@ -3010,6 +3010,88 @@
      <Font>Default</Font>
     </Appearance>
    </Button>
+   <Frame ID="150" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="260" X="715" Y="105" Height="120" Visible="True"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Slider WidgetStyle="Slider" ID="151" Caption="Découpe Jardin Dag" InvertedAppearance="false">
+     <WindowState Width="60" X="10" Y="0" Height="100" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="5">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="152" Caption="Découpe Cour ORL" InvertedAppearance="false">
+     <WindowState Width="60" X="70" Y="0" Height="100" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="6">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="153" Caption="Découpe Lointain Jeannot" InvertedAppearance="false">
+     <WindowState Width="60" X="130" Y="0" Height="100" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="7">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="154" Caption="Découpe Plot Tyran" InvertedAppearance="false">
+     <WindowState Width="60" X="190" Y="0" Height="100" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="8">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
