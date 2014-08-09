@@ -558,6 +558,10 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">12,255,13,255,14,255</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="Strob" ID="113">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="2">0,196,1,255</FixtureVal>
+  </Function>
   <Function Type="Scene" Name="CJ White Segment 6" ID="114">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">15,255,16,255,17,255</FixtureVal>
@@ -3096,6 +3100,20 @@
      </Playback>
     </Slider>
    </Frame>
+   <Button Icon="" ID="155" Caption="Strob">
+    <Function ID="113"/>
+    <Action>Flash</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="40072"/>
+    <WindowState Width="50" X="815" Y="295" Height="50" Visible="True"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
