@@ -3032,6 +3032,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="0" Channel="20060"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
      <Level HighLimit="255" LowLimit="0" Value="0">
       <Channel Fixture="5">0</Channel>
@@ -3049,6 +3050,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="0" Channel="1025"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
      <Level HighLimit="255" LowLimit="0" Value="0">
       <Channel Fixture="6">0</Channel>
@@ -3066,6 +3068,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="0" Channel="59998"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
      <Level HighLimit="255" LowLimit="0" Value="0">
       <Channel Fixture="7">0</Channel>
@@ -3083,6 +3086,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="0" Channel="64201"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
      <Level HighLimit="255" LowLimit="0" Value="0">
       <Channel Fixture="8">0</Channel>
