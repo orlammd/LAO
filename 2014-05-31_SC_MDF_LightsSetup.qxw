@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="VirtualConsole">
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="FunctionManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.7.3</Version>
@@ -576,7 +576,7 @@
   </Function>
   <Function Type="Scene" Name="CJ White Segment All" ID="117">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="0">1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="CC White Segment 1" ID="118">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -612,7 +612,7 @@
   </Function>
   <Function Type="Scene" Name="CC White Segment All" ID="126">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="4">1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="BJ White Segment 1" ID="127">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -648,7 +648,7 @@
   </Function>
   <Function Type="Scene" Name="BJ White Segment All" ID="135">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="1">1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="BC White Segment 1" ID="136">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -684,7 +684,7 @@
   </Function>
   <Function Type="Scene" Name="BC White Segment All" ID="144">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="3">1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Dimmer Jardin" ID="145">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -713,7 +713,7 @@
     <Font>Default</Font>
    </Appearance>
    <Slider WidgetStyle="Knob" ID="0" Caption="CJ Red Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="40" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="40" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -729,7 +729,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="1" Caption="CJ Red Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="40" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="40" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -745,7 +745,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="2" Caption="CJ Red Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="40" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="40" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -761,7 +761,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="3" Caption="CJ Red Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="40" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="40" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -777,7 +777,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="4" Caption="CJ Red Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="40" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="40" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -793,7 +793,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="5" Caption="CJ Red Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="40" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="40" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -809,7 +809,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="6" Caption="CJ Red Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="40" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="40" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -825,7 +825,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="7" Caption="CJ Red Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="40" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="40" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -841,7 +841,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="8" Caption="CJ Red Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="40" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="40" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -857,7 +857,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="9" Caption="CJ Green Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="130" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="130" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -873,7 +873,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="10" Caption="CJ Green Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="130" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="130" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -889,7 +889,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="11" Caption="CJ Green Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="130" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="130" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -905,7 +905,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="12" Caption="CJ Green Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="130" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="130" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -921,7 +921,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="13" Caption="CJ Green Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="130" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="130" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -937,7 +937,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="14" Caption="CJ Green Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="130" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="130" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -953,7 +953,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="15" Caption="CJ Green Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="130" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="130" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -969,7 +969,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="16" Caption="CJ Green Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="130" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="130" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -985,7 +985,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="17" Caption="CJ Green Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="130" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="130" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1001,7 +1001,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="18" Caption="CJ Blue Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="220" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="220" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1017,7 +1017,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="19" Caption="CJ Blue Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="220" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="220" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1033,7 +1033,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="20" Caption="CJ Blue Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="220" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="220" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1049,7 +1049,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="21" Caption="CJ Blue Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="220" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="220" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1065,7 +1065,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="22" Caption="CJ Blue Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="220" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="220" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1081,7 +1081,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="23" Caption="CJ Blue Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="220" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="220" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1097,7 +1097,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="24" Caption="CJ Blue Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="220" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="220" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1113,7 +1113,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="25" Caption="CJ Blue Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="220" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="220" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1129,7 +1129,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="26" Caption="CJ Blue Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="220" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="220" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1145,7 +1145,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="27" Caption="CJ White Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="310" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="310" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1161,7 +1161,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="28" Caption="CJ White Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="310" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="310" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1177,7 +1177,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="29" Caption="CJ White Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="310" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="310" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1193,7 +1193,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="30" Caption="CJ White Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="310" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="310" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1209,7 +1209,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="31" Caption="CJ White Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="310" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="310" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1225,7 +1225,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="32" Caption="CJ White Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="310" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="310" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1241,7 +1241,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="33" Caption="CJ White Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="310" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="310" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1257,7 +1257,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="34" Caption="CJ White Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="310" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="310" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1273,7 +1273,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="35" Caption="CJ White Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="310" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="310" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1289,7 +1289,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="36" Caption="CC Red Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="400" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="400" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1305,7 +1305,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="37" Caption="CC Red Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="400" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="400" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1321,7 +1321,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="38" Caption="CC Red Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="400" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="400" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1337,7 +1337,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="39" Caption="CC Red Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="400" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="400" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1353,7 +1353,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="40" Caption="CC Red Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="400" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="400" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1369,7 +1369,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="41" Caption="CC Red Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="400" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="400" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1385,7 +1385,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="42" Caption="CC Red Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="400" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="400" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1401,7 +1401,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="43" Caption="CC Red Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="400" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="400" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1417,7 +1417,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="44" Caption="CC Red Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="400" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="400" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1433,7 +1433,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="45" Caption="CC Green Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="490" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="490" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1449,7 +1449,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="46" Caption="CC Green Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="490" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="490" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1465,7 +1465,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="47" Caption="CC Green Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="490" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="490" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1481,7 +1481,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="48" Caption="CC Green Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="490" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="490" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1497,7 +1497,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="49" Caption="CC Green Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="490" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="490" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1513,7 +1513,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="50" Caption="CC Green Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="490" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="490" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1529,7 +1529,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="51" Caption="CC Green Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="490" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="490" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1545,7 +1545,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="52" Caption="CC Green Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="490" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="490" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1561,7 +1561,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="53" Caption="CC Green Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="490" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="490" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1577,7 +1577,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="54" Caption="CC Blue Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="580" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="580" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1593,7 +1593,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="55" Caption="CC Blue Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="580" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="580" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1609,7 +1609,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="56" Caption="CC Blue Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="580" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="580" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1625,7 +1625,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="57" Caption="CC Blue Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="580" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="580" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1641,7 +1641,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="58" Caption="CC Blue Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="580" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="580" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1657,7 +1657,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="59" Caption="CC Blue Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="580" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="580" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1673,7 +1673,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="60" Caption="CC Blue Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="580" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="580" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1689,7 +1689,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="61" Caption="CC Blue Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="580" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="580" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1705,7 +1705,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="62" Caption="CC Blue Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="580" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="580" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1721,7 +1721,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="63" Caption="CC White Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="670" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="670" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1737,7 +1737,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="64" Caption="CC White Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="670" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="670" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1753,7 +1753,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="65" Caption="CC White Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="670" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="670" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1769,7 +1769,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="66" Caption="CC White Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="670" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="670" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1785,7 +1785,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="67" Caption="CC White Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="670" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="670" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1801,7 +1801,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="68" Caption="CC White Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="670" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="670" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1817,7 +1817,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="69" Caption="CC White Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="670" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="670" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1833,7 +1833,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="70" Caption="CC White Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="670" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="670" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1849,7 +1849,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="71" Caption="CC White Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="670" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="670" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1865,7 +1865,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="72" Caption="BJ Red Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="760" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="760" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1881,7 +1881,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="73" Caption="BJ Red Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="760" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="760" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1897,7 +1897,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="74" Caption="BJ Red Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="760" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="760" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1913,7 +1913,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="75" Caption="BJ Red Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="760" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="760" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1929,7 +1929,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="76" Caption="BJ Red Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="760" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="760" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1945,7 +1945,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="77" Caption="BJ Red Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="760" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="760" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1961,7 +1961,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="78" Caption="BJ Red Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="760" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="760" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1977,7 +1977,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="79" Caption="BJ Red Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="760" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="760" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1993,7 +1993,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="80" Caption="BJ Red Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="760" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="760" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2009,7 +2009,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="81" Caption="BJ Green Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="850" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="850" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2025,7 +2025,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="82" Caption="BJ Green Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="850" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="850" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2041,7 +2041,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="83" Caption="BJ Green Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="850" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="850" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2057,7 +2057,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="84" Caption="BJ Green Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="850" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="850" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2073,7 +2073,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="85" Caption="BJ Green Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="850" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="850" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2089,7 +2089,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="86" Caption="BJ Green Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="850" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="850" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2105,7 +2105,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="87" Caption="BJ Green Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="850" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="850" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2121,7 +2121,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="88" Caption="BJ Green Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="850" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="850" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2137,7 +2137,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="89" Caption="BJ Green Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="850" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="850" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2153,7 +2153,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="90" Caption="BJ Blue Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="940" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="940" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2169,7 +2169,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="91" Caption="BJ Blue Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="940" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="940" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2185,7 +2185,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="92" Caption="BJ Blue Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="940" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="940" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2201,7 +2201,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="93" Caption="BJ Blue Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="940" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="940" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2217,7 +2217,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="94" Caption="BJ Blue Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="940" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="940" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2233,7 +2233,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="95" Caption="BJ Blue Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="940" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="940" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2249,7 +2249,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="96" Caption="BJ Blue Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="940" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="940" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2265,7 +2265,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="97" Caption="BJ Blue Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="940" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="940" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2281,7 +2281,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="98" Caption="BJ Blue Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="940" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="940" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2297,7 +2297,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="99" Caption="BJ White Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="1030" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="1030" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2313,7 +2313,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="100" Caption="BJ White Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="1030" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="1030" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2329,7 +2329,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="101" Caption="BJ White Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="1030" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="1030" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2345,7 +2345,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="102" Caption="BJ White Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="1030" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="1030" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2361,7 +2361,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="103" Caption="BJ White Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="1030" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="1030" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2377,7 +2377,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="104" Caption="BJ White Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="1030" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="1030" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2393,7 +2393,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="105" Caption="BJ White Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="1030" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="1030" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2409,7 +2409,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="106" Caption="BJ White Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="1030" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="1030" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2425,7 +2425,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="107" Caption="BJ White Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="1030" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="1030" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2441,7 +2441,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="108" Caption="BC Red Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="1120" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="1120" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2457,7 +2457,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="109" Caption="BC Red Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="1120" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="1120" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2473,7 +2473,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="110" Caption="BC Red Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="1120" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="1120" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2489,7 +2489,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="111" Caption="BC Red Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="1120" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="1120" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2505,7 +2505,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="112" Caption="BC Red Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="1120" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="1120" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2521,7 +2521,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="113" Caption="BC Red Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="1120" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="1120" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2537,7 +2537,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="114" Caption="BC Red Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="1120" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="1120" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2553,7 +2553,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="115" Caption="BC Red Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="1120" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="1120" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2569,7 +2569,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="116" Caption="BC Red Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="1120" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="1120" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2585,7 +2585,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="117" Caption="BC Green Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="1210" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="1210" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2601,7 +2601,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="118" Caption="BC Green Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="1210" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="1210" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2617,7 +2617,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="119" Caption="BC Green Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="1210" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="1210" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2633,7 +2633,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="120" Caption="BC Green Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="1210" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="1210" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2649,7 +2649,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="121" Caption="BC Green Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="1210" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="1210" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2665,7 +2665,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="122" Caption="BC Green Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="1210" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="1210" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2681,7 +2681,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="123" Caption="BC Green Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="1210" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="1210" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2697,7 +2697,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="124" Caption="BC Green Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="1210" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="1210" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2713,7 +2713,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="125" Caption="BC Green Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="1210" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="1210" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2729,7 +2729,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="126" Caption="BC Blue Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="1300" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="1300" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2745,7 +2745,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="127" Caption="BC Blue Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="1300" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="1300" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2761,7 +2761,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="128" Caption="BC Blue Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="1300" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="1300" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2777,7 +2777,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="129" Caption="BC Blue Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="1300" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="1300" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2793,7 +2793,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="130" Caption="BC Blue Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="1300" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="1300" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2809,7 +2809,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="131" Caption="BC Blue Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="1300" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="1300" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2825,7 +2825,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="132" Caption="BC Blue Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="1300" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="1300" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2841,7 +2841,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="133" Caption="BC Blue Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="1300" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="1300" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2857,7 +2857,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="134" Caption="BC Blue Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="1300" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="1300" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2873,7 +2873,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="135" Caption="BC White Segment 1" InvertedAppearance="false">
-    <WindowState Width="60" X="5" Y="1390" Height="90" Visible="True"/>
+    <WindowState Width="60" X="5" Y="1390" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2889,7 +2889,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="136" Caption="BC White Segment 2" InvertedAppearance="false">
-    <WindowState Width="60" X="65" Y="1390" Height="90" Visible="True"/>
+    <WindowState Width="60" X="65" Y="1390" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2905,7 +2905,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="137" Caption="BC White Segment 3" InvertedAppearance="false">
-    <WindowState Width="60" X="125" Y="1390" Height="90" Visible="True"/>
+    <WindowState Width="60" X="125" Y="1390" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2921,7 +2921,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="138" Caption="BC White Segment 4" InvertedAppearance="false">
-    <WindowState Width="60" X="185" Y="1390" Height="90" Visible="True"/>
+    <WindowState Width="60" X="185" Y="1390" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2937,7 +2937,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="139" Caption="BC White Segment 5" InvertedAppearance="false">
-    <WindowState Width="60" X="245" Y="1390" Height="90" Visible="True"/>
+    <WindowState Width="60" X="245" Y="1390" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2953,7 +2953,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="140" Caption="BC White Segment 6" InvertedAppearance="false">
-    <WindowState Width="60" X="305" Y="1390" Height="90" Visible="True"/>
+    <WindowState Width="60" X="305" Y="1390" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2969,7 +2969,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="141" Caption="BC White Segment 7" InvertedAppearance="false">
-    <WindowState Width="60" X="365" Y="1390" Height="90" Visible="True"/>
+    <WindowState Width="60" X="365" Y="1390" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -2985,7 +2985,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="142" Caption="BC White Segment 8" InvertedAppearance="false">
-    <WindowState Width="60" X="425" Y="1390" Height="90" Visible="True"/>
+    <WindowState Width="60" X="425" Y="1390" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -3001,7 +3001,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Knob" ID="143" Caption="BC White Segment All" InvertedAppearance="false">
-    <WindowState Width="60" X="485" Y="1390" Height="90" Visible="True"/>
+    <WindowState Width="60" X="485" Y="1390" Height="90" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -3021,7 +3021,7 @@
     <Action>StopAll</Action>
     <Intensity Adjust="False">100</Intensity>
     <Input Universe="0" Channel="14940"/>
-    <WindowState Width="50" X="590" Y="55" Height="50" Visible="True"/>
+    <WindowState Width="50" X="590" Y="55" Height="50" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -3038,13 +3038,13 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="260" X="715" Y="105" Height="120" Visible="True"/>
+    <WindowState Width="260" X="715" Y="105" Height="120" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
     <Collapsed>False</Collapsed>
     <Slider WidgetStyle="Slider" ID="151" Caption="Découpe Jardin Dag" InvertedAppearance="false">
-     <WindowState Width="60" X="10" Y="0" Height="100" Visible="True"/>
+     <WindowState Width="60" X="10" Y="0" Height="100" Visible="False"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -3062,7 +3062,7 @@
      </Playback>
     </Slider>
     <Slider WidgetStyle="Slider" ID="152" Caption="Découpe Cour ORL" InvertedAppearance="false">
-     <WindowState Width="60" X="70" Y="0" Height="100" Visible="True"/>
+     <WindowState Width="60" X="70" Y="0" Height="100" Visible="False"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -3080,7 +3080,7 @@
      </Playback>
     </Slider>
     <Slider WidgetStyle="Slider" ID="153" Caption="Découpe Lointain Jeannot" InvertedAppearance="false">
-     <WindowState Width="60" X="130" Y="0" Height="100" Visible="True"/>
+     <WindowState Width="60" X="130" Y="0" Height="100" Visible="False"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -3098,7 +3098,7 @@
      </Playback>
     </Slider>
     <Slider WidgetStyle="Slider" ID="154" Caption="Découpe Plot Tyran" InvertedAppearance="false">
-     <WindowState Width="60" X="190" Y="0" Height="100" Visible="True"/>
+     <WindowState Width="60" X="190" Y="0" Height="100" Visible="False"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -3121,7 +3121,7 @@
     <Action>Flash</Action>
     <Intensity Adjust="False">100</Intensity>
     <Input Universe="0" Channel="40072"/>
-    <WindowState Width="50" X="815" Y="295" Height="50" Visible="True"/>
+    <WindowState Width="50" X="815" Y="295" Height="50" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
